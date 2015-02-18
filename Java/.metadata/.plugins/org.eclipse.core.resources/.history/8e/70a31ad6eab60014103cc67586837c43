@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.util.Vector;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n, m = 0;
+		//Vector<Float> x = new Vector<Float>();
+		//Vector<Float> y = new Vector<Float>();
+		
+		System.out.println("Laba 1 java. Vladyslav Koshyl 631p.");
+		System.out.println("Input the arrays size:");
+		
+        n = in.nextInt();
+        m = in.nextInt();
+        
+        float []x = new float[n];
+        float []y = new float[m];
+        
+        System.out.println("Fill the first array:");
+        for(int i = 0; i < n; i++){
+        	x[i]=in.nextFloat();
+        }
+	}
+
+}

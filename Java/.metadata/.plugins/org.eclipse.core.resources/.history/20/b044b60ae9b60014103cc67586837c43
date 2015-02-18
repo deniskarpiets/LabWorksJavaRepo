@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n, m = 0;
+		
+		
+		System.out.println("Laba 1 java. Vladyslav Koshyl 631p.");
+		System.out.println("Input the arrays size:");
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.io.Console;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		Console console = System.console();
+		int n, m = 0;
+		ArrayList<Integer> x = new ArrayList<Integer>();
+		ArrayList<Integer> y = new ArrayList<Integer>();
+		
+		System.out.println("Laba 1 java. Vladyslav Koshyl 631p.");
+		System.out.println("Input the arrays size:");
+		
+		if(console == null) {
+            System.err.println("There is no console.");
+            System.exit(1);
+        }
+        n = Integer.parseInt(console.readLine("Enter int: "));
+        m = Integer.parseInt(console.readLine("Enter int: "));
+	}
+
+}
