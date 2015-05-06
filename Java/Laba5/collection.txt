@@ -1,0 +1,7 @@
+The 1 car in autopark: 
+Car made by: Laz
+Car type is: bus
+Car number is: 33
+Car course is: Kharkiv-Lviv
+Car capacity is: 50
+Driver name is: Vasyl
