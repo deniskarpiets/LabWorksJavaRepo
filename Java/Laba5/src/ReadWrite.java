@@ -14,6 +14,7 @@ public class ReadWrite {
             writer = new FileWriter(this.path);
             for (int i = 0; i<collection.size(); i++) {
             	writer.write("The "+(i+1)+" car in autopark: ");
+            	//use "writer.write("\r\n");" to correct write into the file :)
             	writer.write("\n");
             	writer.write("Car made by: " + collection.elementAt(i).GetFirm());
             	writer.write("\n");
